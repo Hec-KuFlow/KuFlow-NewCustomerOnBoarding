@@ -14,7 +14,7 @@ Before starting your Workflow for the first time, you must register in [KuFlow (
 
 To use this 3rd-party application, you must create a Google Dev Project and credentials following the [Google Developer Platform](https://developers.google.com/apps-script/api/quickstart/java?hl=es-419) quickstart guide.
 
-#### Create the credentials for the Worker​
+#### Create the credentials for the Worker
 
 We will configure an `APPLICATION` that will provide us with the necessary credentials so that our Worker (written in Java and located in your own machine) can interface with KuFlow.
 
@@ -43,7 +43,7 @@ Finally, you get something like:
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial2/TUT03-01-App.png)
+![](/img/TUT03-01-App.png)
 
 </div>
 
@@ -103,7 +103,7 @@ Finally, you get something like:
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial2/TUT03-03-Process.png)
+![](/img/TUT12-04-Process.png)
 
 </div>
 
@@ -135,19 +135,19 @@ You'll get something like:
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-04-Process.png)
+![](/img/TUT12-04-Task.png)
 
 </div>
 
-### Publish the process and download the template for the Workflow Worker​
+### Publish the process and download the template for the Workflow Worker
 
 By clicking on the `Publish` button you’ll receive a confirmation request message, once you have confirmed, the process will be published.
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-05-publish.png)
+![](/img/TUT12-05-publish.png)
 
-![](/img/tutorial/java-APItutorial3/TUT12-06-publish.png)
+![](/img/TUT12-06-publish.png)
 
 </div>
 
@@ -155,9 +155,9 @@ Now, you can download a sample Workflow Implementation from the Process Definiti
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-07-Template_1.png)
+![](/img/TUT12-07-Template_1.png)
 
-![](/img/tutorial/java-APItutorial3/TUT12-07-Template_2.png)
+![](/img/TUT12-07-Template_2.png)
 
 </div>
 
@@ -185,7 +185,7 @@ To make things simpler, the following technologies have been mainly used in our 
 
 **Note:** You can download the following project from our [public Github repository](https://github.com/kuflow/kuflow-engine-samples-java), be sure to add all the tokens and secrets from your KuFlow account and 3rd party API developers.
 
-### Resolve dependencies​
+### Resolve dependencies
 
 We need to modify **pom.xml**, to include new dependencies:
 
@@ -287,7 +287,7 @@ Please note that this is a YAML, respect the indentation. You'll get something l
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial2/TUT03-07-Template_3.png)
+![](/img/TUT03-07-Template_3.png)
 
 </div>
 
@@ -297,11 +297,11 @@ We create a new file called **credentials.json** inside a subfolder **/resources
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial2/TUT03-07-Template_4.png)
+![](/img/TUT03-07-Template_4.png)
 
 </div>
 
-### Define new Activities ​
+### Define new Activities
 
 We create a new subfolder called **activity** and inside a file called **AppsScriptActivities.java** with the following content:
 
@@ -564,7 +564,7 @@ We can test all that we have done by running the worker (*like pressing **F5** i
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-08-Test_1.png)
+![](/img/TUT12-08-Test_1.png)
 
 </div>
 
@@ -572,7 +572,7 @@ And initiating the process in KuFlow’s UI.
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-08-Test_2.png)
+![](/img/TUT12-08-Test_2.png)
 
 </div>
 
@@ -580,7 +580,7 @@ Fill out the form with the information requested and complete the task.
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-08-Test_3.png)
+![](/img/TUT12-08-Test_3.png)
 
 </div>
 
@@ -588,7 +588,7 @@ Fill out the form with the information requested and complete the task.
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-08-Test_4.png)
+![](/img/TUT12-08-Test_4.png)
 
 </div>
 
@@ -596,7 +596,7 @@ Check the Google Drive destination folder, you'll get something like this:
 
 <div class="text--center">
 
-![](/img/tutorial/java-APItutorial3/TUT12-08-Test_5.png)
+![](/img/TUT12-08-Test_5.png)
 
 </div>
 
