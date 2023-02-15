@@ -39,8 +39,8 @@ public class AppScriptActivitiesImpl implements AppScriptActivities {
     private static final String CREDENTIALS_FILE_PATH = "/credentials.json";
     
     //Define some own variables
-    private static final String SCRIPT_ID = "AKfycbxGbKfGy7Odo1zqGZrvDIKnRjWnQeZvueMD4v5zssBg";
-    private static final String FUNCTION_NAME = "AdministracionHT";  
+    private static final String SCRIPT_ID = "IMPLEMENTATION_SCRIPT_ID";
+    private static final String FUNCTION_NAME = "YOUR_FUNCTION_NAME";  
     /**
      * Creates an authorized Credential object.
      *
