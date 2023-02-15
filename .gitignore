@@ -1,2 +1,29 @@
-/.vscode
-/tokens
+######################
+# Maven
+######################
+target/
+
+######################
+# Intellij IDEA
+######################
+.idea
+*.iml
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Tokens
+######################
+tokens/
+resources/
+
+######################
+# Project Keep
+######################
+!pom.xml
+!worker/
+!README.md
+!TUTORIAL.md
