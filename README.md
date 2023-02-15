@@ -145,9 +145,9 @@ By clicking on the `Publish` button you’ll receive a confirmation request mess
 
 <div class="text--center">
 
-![](/img/TUT12-05-publish.png)
+![](/img/TUT12-05-Publish.png)
 
-![](/img/TUT12-06-publish.png)
+![](/img/TUT12-06-Publish.png)
 
 </div>
 
