@@ -1,4 +1,4 @@
-# KuFlow - Third-Party API (Google GSheets) example
+# KuFlow - Third-Party API (Google Apps Script) example
 
 ## What we will create?
 
