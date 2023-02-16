@@ -213,7 +213,7 @@ Now, in this step we are filling up the application configuration information. Y
 
 #### KuFlow’s Credentials
 
-The appropriate values can be obtained from the KuFlow application. Check out the [Create the Credentials](https://docs.kuflow.com/developers/examples/java-APItutorial3#create-the-credentials) section of this tutorial.
+The appropriate values can be obtained from the KuFlow application. Check out the [Create the Credentials](#create-the-credentials-for-the-worker) section of this tutorial.
 
 ```yaml
 # ===================================================================
@@ -291,9 +291,9 @@ Please note that this is a YAML, respect the indentation. You'll get something l
 
 </div>
 
-#### 3rd Party (Google Apps Script) Credentials
+#### 3rd Party (Google Apps Script) Credential
 
-We create a new file called **credentials.json** inside a subfolder **/resources**, with the content generated from the [3rd Party API (Google Apps Script) Credentials](https://docs.kuflow.com/developers/examples/java-APItutorial2#3rd-party-api-google-credentials) section on this tutorial.
+We create a new file called **credentials.json** inside a subfolder **/resources**, with the content generated from the [3rd Party API (Google Apps Script) Credentials](#3rd-party-api-google-apps-script-credentials) section on this tutorial.
 
 <div class="text--center">
 
